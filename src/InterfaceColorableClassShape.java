@@ -12,7 +12,7 @@ public class InterfaceColorableClassShape {
 
         for (int i = 0; i < shapes.length; i++){
             System.out.print(shapes[i]);
-            if (shapes[i].isFilled()){
+            if (shapes[i].isFilled()) {
                 square.howToColor();
             } else {
                 System.out.println();
